@@ -4,6 +4,11 @@ import br.com.calculos.Calculadora;
 import br.com.filmes.Filme;
 import br.com.filmes.Serie;
 
+<<<<<<< HEAD
+=======
+import java.util.ArrayList;
+
+>>>>>>> f21b913 (Exericios para treinamento de POO em Java)
 
 public class Main {
     public static void main(String[] args) {
@@ -94,5 +99,22 @@ public class Main {
         episodios.setTotalVisualizacoes(99);
         filtro.filtra(episodios);
 
+<<<<<<< HEAD
+=======
+        var filmeGabriel = new Filme();
+        filmeGabriel.setNome("Halloween");
+        filmeGabriel.setDuracaoEmMinutos(106);
+        filmeGabriel.setAnoDeLancamento(2018);
+        filmeGabriel.avalia(9);
+
+        ArrayList<Filme> listaDeFilmes = new ArrayList<>();
+        listaDeFilmes.add(filmeGabriel);
+        listaDeFilmes.add(meuFilme);
+        listaDeFilmes.add(outro);
+        listaDeFilmes.add(favorito);
+        System.out.println("Tamanho da Lista: " +listaDeFilmes.size());
+        System.out.println("Primeiro filme: " +listaDeFilmes.get(0).getNome());
+        System.out.println(listaDeFilmes);
+>>>>>>> f21b913 (Exericios para treinamento de POO em Java)
     }
 }
